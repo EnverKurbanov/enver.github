@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/poppins-v15-latin-ext_latin_devanagari-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-300.woff') format('woff'), /* Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-300.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-regular - latin-ext_latin_devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-500 - latin-ext_latin_devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/poppins-v15-latin-ext_latin_devanagari-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-500.woff') format('woff'), /* Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-500.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-600 - latin-ext_latin_devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/poppins-v15-latin-ext_latin_devanagari-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-600.woff') format('woff'), /* Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-600.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-700 - latin-ext_latin_devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/poppins-v15-latin-ext_latin_devanagari-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-700.woff') format('woff'), /* Modern Browsers */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/poppins-v15-latin-ext_latin_devanagari-700.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
+
+ body,
+  html { 
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url(img/header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  hr{
+    border-color: #F05F44;
+    border-width: 3px;
+    max-width: 65px;
+  }
+  .btn {
+    border-radius: 300px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family:sans-serif;
+  }
+
+  .btn-xl{
+    padding: 1rem 2rem;
+   }
+
+   .btn-primary{
+     background-color: #F05F44;
+     border-color: #F05F44;
+   }
+
+   .btn-primary:hover{
+     background-color: #ee4508;
+     border-color: #ee4508;
+     border-width: 4px;
+   }
+
+h1{
+  color: rgb(230, 230, 230);
+  font-family: 'Encode Sans SC', sans-serif;
+
+}
+
+.buffer{
+  height: 8rem;
+}
+
